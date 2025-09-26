@@ -80,8 +80,26 @@ nxtTrendzCartFeatures-solution/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/nxttrendz.git
-cd nxttrendz
+git clone https://github.com/SasidharKosuri/nxtTrendz.git
+cd nxtTrendz
 ```
+
+### 2.Install dependencies
+
+```
+npm install
+```
+
+### 3.Start the development server
+
+```
+npm start
+```
+
+### 4.Open your browser
+
+The app will automatically open at http://localhost:3000
+
+Use demo credentials to login (check API documentation)
 
 
