@@ -49,7 +49,7 @@ nxtTrendzCartFeatures-solution/
 ├── public/
 ├── src/
 │   ├── components/
-│   │   ├── AllProductsSection/      # Main products listing with filters
+│   │   ├── AllProductsSection/      # Main products listing with filters  
 │   │   ├── Cart/                    # Cart page component
 │   │   ├── CartItem/               # Individual cart item
 │   │   ├── CartListView/           # List of cart items
