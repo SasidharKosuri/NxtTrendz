@@ -107,78 +107,53 @@ Use demo credentials to login
 
 ### 🏠 Home Component
 - Welcome page with promotional content
-
 - "Shop Now" button redirecting to products page
-
 - Responsive design with different layouts for mobile and desktop
 
-🔐 Authentication System
-LoginForm: Handles user authentication with JWT tokens
+### 🔐 Authentication System
+- LoginForm: Handles user authentication with JWT tokens
+- ProtectedRoute: Higher-order component for route protection
+- Automatic token validation and redirects
 
-ProtectedRoute: Higher-order component for route protection
+### 🛍️ Product Management
+- AllProductsSection: Main product grid with filtering and sorting
+- ProductItemDetails: Individual product pages with similar products
+- PrimeDealsSection: Special offers section
+- FiltersGroup: Advanced filtering by category, rating, and search
 
-Automatic token validation and redirects
+### 🛒 Cart System
+- CartContext: Global state management for cart operations
+- Cart: Main cart page with list view and summary
+- CartItem: Individual cart item with quantity controls
+- CartSummary: Order total and checkout button
 
-🛍️ Product Management
-AllProductsSection: Main product grid with filtering and sorting
+### 🎨 UI Components
+- Header: Navigation with cart badge and logout
+- ProductCard: Reusable product display component
+- SimilarProductItem: Related products display
 
-ProductItemDetails: Individual product pages with similar products
+### 🔄 State Management
+- The app uses React Context API for global state management:
 
-PrimeDealsSection: Special offers section
+### CartContext Features:
+- cartList: Array of cart items
+- addCartItem(): Add products to cart
+- removeCartItem(): Remove specific items
+- incrementCartItemQuantity(): Increase item quantity
+- decrementCartItemQuantity(): Decrease item quantity
+- removeAllCartItems(): Clear entire cart
 
-FiltersGroup: Advanced filtering by category, rating, and search
-
-🛒 Cart System
-CartContext: Global state management for cart operations
-
-Cart: Main cart page with list view and summary
-
-CartItem: Individual cart item with quantity controls
-
-CartSummary: Order total and checkout button
-
-🎨 UI Components
-Header: Navigation with cart badge and logout
-
-ProductCard: Reusable product display component
-
-SimilarProductItem: Related products display
-
-🔄 State Management
-The app uses React Context API for global state management:
-
-CartContext Features:
-cartList: Array of cart items
-
-addCartItem(): Add products to cart
-
-removeCartItem(): Remove specific items
-
-incrementCartItemQuantity(): Increase item quantity
-
-decrementCartItemQuantity(): Decrease item quantity
-
-removeAllCartItems(): Clear entire cart
-
-🌐 API Integration
+### 🌐 API Integration
 The app integrates with a mock e-commerce API providing:
+- Product listings with pagination
+- Product details and similar products
+- User authentication endpoints
+- Prime deals exclusive offers
 
-Product listings with pagination
-
-Product details and similar products
-
-User authentication endpoints
-
-Prime deals exclusive offers
-
-📱 Responsive Design Features
-Mobile-first CSS approach
-
-Flexible grid layouts using Flexbox
-
-Media queries for different screen sizes
-
-Touch-friendly buttons and controls
-
-Optimized images and loading states
+### 📱 Responsive Design Features
+- Mobile-first CSS approach
+- Flexible grid layouts using Flexbox
+- Media queries for different screen sizes
+- Touch-friendly buttons and controls
+- Optimized images and loading states
 
