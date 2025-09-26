@@ -1,6 +1,8 @@
 # 🛍️ NxtTrendz – React E-Commerce App
 
-NxtTrendz is a modern React.js-based e-commerce web application that simulates a real-world shopping platform. It enables users to seamlessly browse through a wide catalog of products, explore exclusive deals, and access detailed product pages with descriptions, specifications, and recommendations. With search, filters, sorting, and ratings, customers can quickly discover the right products for their needs. The app also includes a secure authentication system powered by JWT tokens, ensuring that only logged-in users can access protected routes such as the shopping cart. The cart itself is fully interactive, allowing users to add, update, or remove products, view a live order summary, and even clear the entire cart in one click. Built with a mobile-first, responsive design, NxtTrendz delivers a smooth and consistent shopping experience across desktops, tablets, and mobile devices.
+NxtTrendz is a modern React.js-based e-commerce web application that simulates a real-world shopping platform.  
+It enables users to seamlessly browse through a wide catalog of products, explore exclusive deals, and access detailed product pages with descriptions, specifications, and recommendations.  
+With search, filters, sorting, and ratings, customers can quickly discover the right products for their needs. The app also includes a secure authentication system powered by JWT tokens, ensuring that only logged-in users can access protected routes such as the shopping cart. The cart itself is fully interactive, allowing users to add, update, or remove products, view a live order summary, and even clear the entire cart in one click. Built with a mobile-first, responsive design, NxtTrendz delivers a smooth and consistent shopping experience across desktops, tablets, and mobile devices.
 
 ---
 
