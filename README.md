@@ -99,7 +99,7 @@ npm start
 ### 4.Open your browser
 
 The app will automatically open at http://localhost:3000
+Use demo credentials to login
 
-Use demo credentials to login (check API documentation)
-
+<img width="1203" height="780" alt="image" src="https://github.com/user-attachments/assets/35f4ff56-28f1-4ffc-9fa8-e8ca7094b865" />
 
